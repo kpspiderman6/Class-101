@@ -1,0 +1,61 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  </head>
+
+  <body>
+    
+  <div class="container">
+    
+    <center>
+      <h1 id="title">Image identification</h1>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <br><label id="cup">Cup</label><hr>
+
+      <br><label id="Ted">Teddy Bear</label><hr>
+
+      <br><label id="Comb">Comb</label><hr>
+
+      <label >Webcam View - </label>
+      <hr>
+      <div id="your_cam"></div>
+      <br>
+      <div id="result"></div>
+      <br>
+      <button id="photo" class="btn btn-primary"onclick ="take_photo()">Click photo</button>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button id="indentify_pic"class="btn btn-success">Identify image</button>
+      <br><br>
+      <p style="font-size: 22px;"id="Object">Object : <span id="object_result"></span> </p>
+      <br><br>
+      <p style="font-size: 22px;"id="Accuracy">Accuracy :  <span id="accuracy_result"></span></p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

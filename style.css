@@ -1,0 +1,39 @@
+body{
+    background-color: coral;
+    color: antiquewhite;
+    text-align: center;
+}
+#cup{
+    color: rgb(98, 149, 243);
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: large;
+}
+#Ted{
+    color: rgb(82, 138, 243);
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: large;
+}
+#Comb{
+    color: rgb(90, 146, 248);
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: large;
+}
+#Object{
+    color: darkorchid;
+    font-family: 'Yusei Magic', sans-serif;
+}
+#Accuracy{
+    color: darkorchid;
+    font-family: 'Yusei Magic', sans-serif;
+}
+#object_result{
+    color: deepskyblue;
+    font-family: 'Yusei Magic', sans-serif;
+}
+#accuracy_result{
+    color: deepskyblue;
+    font-family: 'Yusei Magic', sans-serif;
+}
+#title{
+    font-family: 'Potta One', cursive;
+}
